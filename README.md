@@ -1,2 +1,3 @@
 # VormaL Site
--My own website 
+My own website created with HTML, CSS, JavaScript
+
