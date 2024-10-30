@@ -20,6 +20,7 @@ button {
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     transition: 0.5s;
+    margin-bottom: 6px;
 }
 
 button:hover {
@@ -40,8 +41,12 @@ button:hover {
     border-color: blueviolet;
 }
 
+.newGame {
+    border-color: rgb(40, 206, 151);
+}
+
 .email {
-    border-color: chartreuse;
+    border-color: rgb(0, 162, 255);
 }
 
 .email::after {
@@ -53,12 +58,11 @@ button:hover {
 }
 
 
-.SocialSites {
-    vertical-align: middle;
-    display: flex;
+.Socials {
     align-items: center;
-    height: 30vh;
-    justify-content: center;
-    place-items: center;
-    display: grid;
+    height: 10;
+    justify-content: space-around;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
